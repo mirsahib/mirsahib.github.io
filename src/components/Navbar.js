@@ -36,6 +36,7 @@ function Navbar() {
                 About
               </a>
             </li>
+            {/** 
             <li class="nav-item">
               <a class="nav-link" href="/#services">
                 Services
@@ -45,7 +46,7 @@ function Navbar() {
               <a class="nav-link" href="/#client">
                 Client
               </a>
-            </li>
+            </li>*/}
             <li class="nav-item">
               <a class="nav-link" href="/#work">
                 Portfolio
