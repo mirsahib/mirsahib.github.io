@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
@@ -13,11 +14,17 @@ function Home() {
                   <h4 class="text-white first-title mb-4">Welcome</h4>
                   <h1 class="header-name text-white text-capitalize mb-0">
                     I'M
-                    {" Mir Habib Ul Latif"}
-                    <span
-                      class="element font-weight-bold"
-                      data-elements="Kerri Deo.,A Graphic Designer.,A Photographer."
-                    ></span>
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Mir Habib Ul Latif",
+                          "A Full Stack Developer",
+                          "An Arsenal Fan",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                      }}
+                    />
                   </h1>
                   <p class="text-white mx-auto header-desc mt-4">
                     It is a long established fact that a reader will be of a
