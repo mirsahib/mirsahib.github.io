@@ -1,4 +1,6 @@
 import React from "react";
+import Social from "./Social";
+import data from "../../data.json";
 
 function About() {
   return (
@@ -42,26 +44,9 @@ function About() {
               </p>
               <div>
                 <ul class="mb-0 about-social list-inline mt-4">
-                  <li class="list-inline-item">
-                    <a href="/#">
-                      <i class="mdi mdi-dribbble"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="/#">
-                      <i class="mdi mdi-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="/#">
-                      <i class="mdi mdi-linkedin"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="/#">
-                      <i class="mdi mdi-twitter"></i>
-                    </a>
-                  </li>
+                  {data[1].social.map((e) => {
+                    return <Social key={e.id} link={e.link} icon={e.icon} />;
+                  })}
                 </ul>
               </div>
             </div>

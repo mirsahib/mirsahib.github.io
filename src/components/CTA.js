@@ -2,7 +2,7 @@ import React from "react";
 
 function CTA() {
   return (
-    <section class="section">
+    <section class="section bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
