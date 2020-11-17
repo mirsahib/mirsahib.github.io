@@ -1,6 +1,6 @@
 import React from "react";
 import Social from "./Social";
-import data from "../../data.json";
+import { profile, social } from "../../portfolio";
 
 function About() {
   return (
@@ -24,7 +24,7 @@ function About() {
               <h4 class="mt-4">
                 Hello I'm{" "}
                 <span class="text-custom font-weight-bold">
-                  Mir Habib Ul Latif.
+                  {profile.userName}.
                 </span>
               </h4>
               <p class="text-muted mt-4">
@@ -44,7 +44,7 @@ function About() {
               </p>
               <div>
                 <ul class="mb-0 about-social list-inline mt-4">
-                  {data[1].social.map((e) => {
+                  {social.map((e) => {
                     return <Social key={e.id} link={e.link} icon={e.icon} />;
                   })}
                 </ul>

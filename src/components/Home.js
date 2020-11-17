@@ -1,4 +1,5 @@
 import React from "react";
+import { userInfo } from "../portfolio";
 import Typewriter from "typewriter-effect";
 
 function Home() {
@@ -16,22 +17,20 @@ function Home() {
                     I'M
                     <Typewriter
                       options={{
-                        strings: [
-                          "Mir Habib Ul Latif",
-                          "A Full Stack Developer",
-                          "An Arsenal Fan",
-                        ],
+                        strings: userInfo.userTag,
                         autoStart: true,
                         loop: true,
                       }}
                     />
                   </h1>
                   <p class="text-white mx-auto header-desc mt-4">
-                    It is a long established fact that a reader will be of a
-                    page when established fact looking at its layout.
+                    {userInfo.userShortBio}
                   </p>
                   <div class="mt-4 pt-2">
-                    <a href="/#" class="btn btn-outline-custom btn-round">
+                    <a
+                      href={userInfo.cvLink}
+                      class="btn btn-outline-custom btn-round"
+                    >
                       Download Cv
                     </a>
                   </div>

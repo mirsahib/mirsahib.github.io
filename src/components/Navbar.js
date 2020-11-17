@@ -1,15 +1,13 @@
 import React from "react";
+import { profile } from "../portfolio";
 
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
       <div class="container">
         <a class="navbar-brand pt-0 logo" href="/#">
-          <h5 class=" img-fluid logo-light">Mir Habib Ul Latif</h5>
-          <h5 class=" img-fluid logo-dark">Mir Habib Ul Latif</h5>
-          {/**
-                    <img src="images/logo.png" alt="" class="img-fluid logo-light"/>
-                    <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark"/> */}
+          <h5 class=" img-fluid logo-light">{profile.userName}</h5>
+          <h5 class=" img-fluid logo-dark">{profile.userName}</h5>
         </a>
 
         <button
@@ -36,17 +34,6 @@ function Navbar() {
                 About
               </a>
             </li>
-            {/** 
-            <li class="nav-item">
-              <a class="nav-link" href="/#services">
-                Services
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#client">
-                Client
-              </a>
-            </li>*/}
             <li class="nav-item">
               <a class="nav-link" href="/#work">
                 Portfolio
