@@ -1,6 +1,7 @@
 import React from "react";
 import Tab from "./Tab";
-import { workDescription, workLinkAndTag } from "../../portfolio";
+import Project from "./Project";
+import { workDescription, workLinkAndTag, project } from "../../portfolio";
 
 function Work() {
   return (
@@ -64,6 +65,18 @@ function Work() {
       </div>
       <div class="container">
         <div class="row mt-4 work-filter">
+          {project.map((e) => {
+            return (
+              <Project
+                tag={e.tag}
+                link={e.link}
+                img_src={e.img_src}
+                catagory={e.catagory}
+                title={e.title}
+              />
+            );
+          })}
+          {/**
           <div class="col-lg-4 work_item webdesign wordpress">
             <a href="images/works/1.jpg" class="img-zoom">
               <div class="work_box">
@@ -171,6 +184,7 @@ function Work() {
               </div>
             </a>
           </div>
+  */}
         </div>
       </div>
     </section>
