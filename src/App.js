@@ -6,7 +6,7 @@ import About from "./components/About/About";
 //import Services from "./components/Services";
 //import Client from "./components/Client";
 import CTA from "./components/CTA";
-import Work from "./components/Work";
+import Work from "./components/Work/Work";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";

@@ -40,5 +40,31 @@ const aboutMe = [
 
 const EmploymentStatus = false;
 const hireMeLink = "";
+const workDescription =
+  "It is a long established fact that a reader will be of a page when established fact looking at its layout.";
 
-export { profile, userInfo, social, aboutMe, EmploymentStatus, hireMeLink };
+const workLinkAndTag = [
+  { class: "active", link: "/#", title: "All", tag: "*" }, //for all work
+  { class: "", link: "/#", title: "Node", tag: ".node" },
+  { class: "", link: "/#", title: "React", tag: ".react" },
+  { class: "", link: "/#", title: "Django", tag: ".django" },
+  { class: "", link: "/#", title: "Laravel", tag: ".laravel" },
+];
+
+const project = [
+  { tag: ["", ""], link: "", img_src: "" },
+  { tag: ["", ""], link: "", img_src: "" },
+  { tag: ["", ""], link: "", img_src: "" },
+];
+
+export {
+  profile,
+  userInfo,
+  social,
+  aboutMe,
+  EmploymentStatus,
+  hireMeLink,
+  workDescription,
+  workLinkAndTag,
+  project,
+};

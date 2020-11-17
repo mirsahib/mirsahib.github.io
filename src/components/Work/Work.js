@@ -1,4 +1,6 @@
 import React from "react";
+import Tab from "./Tab";
+import { workDescription, workLinkAndTag } from "../../portfolio";
 
 function Work() {
   return (
@@ -11,8 +13,7 @@ function Work() {
                 My <span class="font-weight-bold">Works</span>
               </h2>
               <p class="text-muted mx-auto section-subtitle mt-3">
-                It is a long established fact that a reader will be of a page
-                when established fact looking at its layout.
+                {workDescription}
               </p>
             </div>
           </div>
@@ -22,6 +23,17 @@ function Work() {
             class="col list-unstyled list-inline mb-0 text-uppercase work_menu"
             id="menu-filter"
           >
+            {workLinkAndTag.map((e) => {
+              return (
+                <Tab
+                  class={e.class}
+                  link={e.link}
+                  title={e.title}
+                  tag={e.tag}
+                />
+              );
+            })}
+            {/** 
             <li class="list-inline-item">
               <a class="active" href="/#" data-filter="*">
                 All
@@ -46,7 +58,7 @@ function Work() {
               <a class="" href="/#" data-filter=".wordpress">
                 Wordpress
               </a>
-            </li>
+            </li>*/}
           </ul>
         </div>
       </div>
