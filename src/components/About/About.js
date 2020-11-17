@@ -12,7 +12,7 @@ function About() {
           <div className="col-lg-6">
             <div className="mt-3">
               <img
-                src="images/about.jpg"
+                src={profile.image}
                 alt=""
                 className="img-fluid mx-auto d-block img-thumbnail"
               />

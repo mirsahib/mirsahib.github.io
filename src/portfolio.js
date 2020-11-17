@@ -1,5 +1,8 @@
+import ProfilePicture from "./images/about.jpg";
+
 const profile = {
   userName: "Mir Habib Ul Latif",
+  image: ProfilePicture,
 };
 const userInfo = {
   userTag: ["Mir Habib Ul Latif", "A Full Stack Developer", "An Arsenal Fan"],
