@@ -39,5 +39,6 @@ const aboutMe = [
 ];
 
 const EmploymentStatus = false;
+const hireMeLink = "";
 
-export { profile, userInfo, social, aboutMe, EmploymentStatus };
+export { profile, userInfo, social, aboutMe, EmploymentStatus, hireMeLink };
