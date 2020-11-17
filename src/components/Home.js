@@ -4,16 +4,16 @@ import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
-    <section class="section header-bg-img h-100vh" id="home">
-      <div class="bg-overlay"></div>
-      <div class="header-table">
-        <div class="header-table-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-12">
-                <div class="text-center header-content mx-auto">
-                  <h4 class="text-white first-title mb-4">Welcome</h4>
-                  <h1 class="header-name text-white text-capitalize mb-0">
+    <section className="section header-bg-img h-100vh" id="home">
+      <div className="bg-overlay"></div>
+      <div className="header-table">
+        <div className="header-table-center">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-12">
+                <div className="text-center header-content mx-auto">
+                  <h4 className="text-white first-title mb-4">Welcome</h4>
+                  <h1 className="header-name text-white text-capitalize mb-0">
                     I'M
                     <Typewriter
                       options={{
@@ -23,13 +23,13 @@ function Home() {
                       }}
                     />
                   </h1>
-                  <p class="text-white mx-auto header-desc mt-4">
+                  <p className="text-white mx-auto header-desc mt-4">
                     {userInfo.userShortBio}
                   </p>
-                  <div class="mt-4 pt-2">
+                  <div className="mt-4 pt-2">
                     <a
                       href={userInfo.cvLink}
-                      class="btn btn-outline-custom btn-round"
+                      className="btn btn-outline-custom btn-round"
                     >
                       Download Cv
                     </a>
@@ -40,9 +40,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="scroll_down">
-        <a href="/#about" class="scroll">
-          <i class="text-white"></i>
+      <div className="scroll_down">
+        <a href="/#about" className="scroll">
+          <i className="text-white"></i>
         </a>
       </div>
     </section>

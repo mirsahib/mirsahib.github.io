@@ -10,6 +10,7 @@ import Work from "./components/Work";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { EmploymentStatus } from "./portfolio";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       {/**
       <Services />
       <Client />*/}
-      <CTA />
+      {!EmploymentStatus ? <CTA /> : ""}
       <Work />
       <Blog />
       <Contact />
