@@ -106,6 +106,8 @@ const project = [
   },
 ];
 
+const mediumId = "@mirsahib24";
+
 export {
   profile,
   userInfo,
@@ -116,4 +118,5 @@ export {
   workDescription,
   workLinkAndTag,
   project,
+  mediumId,
 };

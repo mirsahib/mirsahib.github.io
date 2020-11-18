@@ -7,7 +7,7 @@ import About from "./components/About/About";
 //import Client from "./components/Client";
 import CTA from "./components/CTA";
 import Work from "./components/Work/Work";
-import Blog from "./components/Blog";
+import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { EmploymentStatus } from "./portfolio";
