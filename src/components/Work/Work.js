@@ -1,6 +1,8 @@
 import React from "react";
 import Tab from "./Tab";
 import Project from "./Project";
+import { v4 as uuidv4 } from "uuid";
+
 import { workDescription, workLinkAndTag, project } from "../../portfolio";
 
 function Work() {
@@ -27,6 +29,7 @@ function Work() {
             {workLinkAndTag.map((e) => {
               return (
                 <Tab
+                  key={uuidv4()}
                   class={e.class}
                   link={e.link}
                   title={e.title}
@@ -68,6 +71,7 @@ function Work() {
           {project.map((e) => {
             return (
               <Project
+                key={uuidv4()}
                 tag={e.tag}
                 link={e.link}
                 img_src={e.img_src}
