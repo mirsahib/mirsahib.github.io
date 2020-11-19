@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Form() {
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    comments: "",
+  });
+
+  const handleOnChange = (e) => {
+    const value = e.target.value;
+    setState({ ...state, [e.target.id]: value });
+  };
+
   return (
     <form>
       <div class="row">
@@ -13,6 +25,7 @@ function Form() {
               class="form-control"
               placeholder="Your Name*"
               required=""
+              onChange={handleOnChange}
             />
           </div>
         </div>
