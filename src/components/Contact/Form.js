@@ -47,10 +47,10 @@ function Form() {
 
       emailjs
         .send(
-          "service_861qcd3",
-          "template_mmdp01i",
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
           templateParams,
-          "user_WMZDTGeVZidTyyIlq0j6g"
+          process.env.REACT_APP_USER_ID
         )
         .then(
           (response) => {
