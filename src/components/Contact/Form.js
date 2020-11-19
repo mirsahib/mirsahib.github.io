@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 function Form() {
   const [state, setState] = useState({
@@ -7,14 +8,69 @@ function Form() {
     subject: "",
     comments: "",
   });
+  const [errorMsg, setErrorMsg] = useState("");
 
   const handleOnChange = (e) => {
     const value = e.target.value;
-    setState({ ...state, [e.target.id]: value });
+    setState({ ...state, [e.target.name]: value });
+  };
+
+  const validate = () => {
+    let result = true;
+    let pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+
+    if (!state.name || !state.email || !state.subject || !state.comments) {
+      result = false;
+      setErrorMsg("Field is empty");
+    } else {
+      if (!pattern.test(String(state.email).toLowerCase())) {
+        result = false;
+        setErrorMsg("Invalid Email");
+      }
+    }
+    return result;
+  };
+
+  const handleSubmit = async (e) => {
+    try {
+      e.preventDefault();
+      if (!validate()) {
+        return;
+      }
+      //emailjs start
+      const templateParams = {
+        name: state.name,
+        email: state.email,
+        subject: state.subject,
+        message: state.comments,
+      };
+
+      emailjs
+        .send(
+          "service_861qcd3",
+          "template_mmdp01i",
+          templateParams,
+          "user_WMZDTGeVZidTyyIlq0j6g"
+        )
+        .then(
+          (response) => {
+            console.log("SUCCESS!", response.status, response.text);
+          },
+          (err) => {
+            console.log("FAILED...", err);
+          }
+        );
+      //emailjs end
+
+      console.log("emailjs");
+      setState({ name: "", email: "", subject: "", comments: "" });
+    } catch (error) {
+      console.log("Default error", error);
+    }
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div class="row">
         <div class="col-lg-6">
           <div class="form-group mt-2">
@@ -26,6 +82,7 @@ function Form() {
               placeholder="Your Name*"
               required=""
               onChange={handleOnChange}
+              value={state.name || ""}
             />
           </div>
         </div>
@@ -38,6 +95,8 @@ function Form() {
               class="form-control"
               placeholder="Your Email*"
               required=""
+              value={state.email || ""}
+              onChange={handleOnChange}
             />
           </div>
         </div>
@@ -46,11 +105,14 @@ function Form() {
         <div class="col-lg-12">
           <div class="form-group mt-2">
             <input
+              name="subject"
               type="text"
               class="form-control"
               id="subject"
               placeholder="Your Subject.."
               required=""
+              value={state.subject || ""}
+              onChange={handleOnChange}
             />
           </div>
         </div>
@@ -64,6 +126,8 @@ function Form() {
               rows="4"
               class="form-control"
               placeholder="Your message..."
+              value={state.comments || ""}
+              onChange={handleOnChange}
             ></textarea>
           </div>
         </div>
