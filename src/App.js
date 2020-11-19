@@ -8,7 +8,7 @@ import About from "./components/About/About";
 import CTA from "./components/CTA";
 import Work from "./components/Work/Work";
 import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 import { EmploymentStatus } from "./portfolio";
 

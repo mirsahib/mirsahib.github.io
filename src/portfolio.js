@@ -108,6 +108,12 @@ const project = [
 
 const mediumId = "@mirsahib24";
 
+const contact = {
+  cell: "",
+  email: "mirsahib24@gmail.com",
+  office: "",
+};
+
 export {
   profile,
   userInfo,
@@ -119,4 +125,5 @@ export {
   workLinkAndTag,
   project,
   mediumId,
+  contact,
 };
