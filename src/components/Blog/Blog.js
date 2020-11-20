@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Post from "./Post";
-import { mediumId } from "../../portfolio";
+import { mediumId, mediumMsg } from "../../portfolio";
 
 function Blog() {
   const [post, setPost] = useState([]);
@@ -30,11 +30,10 @@ function Blog() {
               <h2>
                 My <span class="font-weight-bold">Medium</span> Articles
               </h2>
-              {/**
+
               <p class="text-muted mx-auto section-subtitle mt-3">
-                It is a long established fact that a reader will be of a page
-                when established fact looking at its layout.
-              </p> */}
+                {mediumMsg ? mediumMsg : ""}
+              </p>
             </div>
           </div>
         </div>

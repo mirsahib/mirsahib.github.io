@@ -20,18 +20,14 @@ function Footer() {
                 </li>
                 <li class="list-inline-item">
                   <a href="/#">
-                    <i class="mdi mdi-pinterest text-muted"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="/#">
                     <i class="mdi mdi-twitter text-muted"></i>
                   </a>
                 </li>
               </ul>
               <p class="text-muted mb-0">
                 {" "}
-                2018 - 2020 &copy; MirSahib. Design by MirSahib.
+                {"2018-"}
+                {new Date().getFullYear()} &copy; MirSahib. Design by MirSahib.
               </p>
             </div>
           </div>

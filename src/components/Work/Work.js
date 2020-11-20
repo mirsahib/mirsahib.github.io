@@ -16,7 +16,7 @@ function Work() {
                 My <span class="font-weight-bold">Works</span>
               </h2>
               <p class="text-muted mx-auto section-subtitle mt-3">
-                {workDescription}
+                {workDescription ? workDescription : ""}
               </p>
             </div>
           </div>

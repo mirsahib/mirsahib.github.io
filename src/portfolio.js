@@ -5,8 +5,8 @@ import ProjectImage3 from "./images/works/3.jpg";
 import ProjectImage4 from "./images/works/4.jpg";
 import ProjectImage5 from "./images/works/5.jpg";
 import ProjectImage6 from "./images/works/6.jpg";
-//this is work branch
 
+//Header Section
 const profile = {
   userName: "Mir Habib Ul Latif",
   image: ProfilePicture,
@@ -17,6 +17,8 @@ const userInfo = {
   userShortBio:
     "It is a long established fact that a reader will be of a page when established fact looking at its layout.",
 };
+
+// About Section
 const social = [
   {
     link: "https://www.facebook.com/mirsahib24/",
@@ -48,10 +50,12 @@ const aboutMe = [
   },
 ];
 
+// Freelance Section
 const EmploymentStatus = false;
 const hireMeLink = "";
-const workDescription =
-  "It is a long established fact that a reader will be of a page when established fact looking at its layout.";
+
+// Work Section
+const workDescription = "Talk is cheap show me the code : Linus Torvaldo";
 
 const workLinkAndTag = [
   { class: "active", link: "/#", title: "All", tag: "*" }, //for all work
@@ -106,13 +110,18 @@ const project = [
   },
 ];
 
+//Medium Article Section
 const mediumId = "@mirsahib24";
+const mediumMsg =
+  "Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something : Richard Stallman";
 
+//Contact Section
 const contact = {
   cell: "",
   email: "mirsahib24@gmail.com",
   office: "",
 };
+const contactMsg = "Trust me this form work";
 
 export {
   profile,
@@ -126,4 +135,6 @@ export {
   project,
   mediumId,
   contact,
+  contactMsg,
+  mediumMsg,
 };

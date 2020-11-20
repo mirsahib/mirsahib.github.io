@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import { contact } from "../../portfolio";
+import { contact, contactMsg } from "../../portfolio";
 
 function Contact() {
   let { cell, email, office } = contact;
@@ -13,14 +13,14 @@ function Contact() {
               <h2>
                 <span class="font-weight-bold">Contact</span> Me
               </h2>
-              {/**
+
               <p class="text-muted mx-auto section-subtitle mt-3">
-                It is a long established fact that a reader will be of a page
-                when established fact looking at its layout.
-              </p> */}
+                {contactMsg ? contactMsg : ""}
+              </p>
             </div>
           </div>
         </div>
+        {/**
         <div class="row mt-5">
           <div class="col-lg-4">
             <div class="text-center">
@@ -62,7 +62,7 @@ function Contact() {
             </div>
           </div>
         </div>
-
+ */}
         <div class="row mt-5">
           <div class="col-lg-12">
             <div class="form-kerri">

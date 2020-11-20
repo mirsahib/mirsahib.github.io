@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Form() {
   const [state, setState] = useState({
@@ -55,9 +57,11 @@ function Form() {
         .then(
           (response) => {
             console.log("SUCCESS!", response.status, response.text);
+            notify("The e-mail has been sent successfully ");
           },
           (err) => {
             console.log("FAILED...", err);
+            notify("Oops Something went wrong");
           }
         );
       //emailjs end
@@ -69,8 +73,31 @@ function Form() {
     }
   };
 
+  const notify = (message) => {
+    toast.dark(message, {
+      position: "bottom-left",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  };
+
   return (
     <form onSubmit={handleSubmit}>
+      <ToastContainer
+        position="bottom-left"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <div class="row">
         <div class="col-lg-6">
           <div class="form-group mt-2">
