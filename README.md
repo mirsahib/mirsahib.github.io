@@ -1,6 +1,12 @@
-# My React Portfolio ⚡️
+# ⚡️ My React Portfolio ⚡️
 
 ## A Clean, Responsive Bootstrap 4 Portfolio Template!
+
+<p align="center">
+  <kbd>
+<img src="https://github.com/mirsahib/Portfolio/blob/main/portfolio.gif"></img>
+  </kbd>
+</p>
 
 If you like my template and want to integrate as your portfolio template than just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
