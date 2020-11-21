@@ -14,8 +14,7 @@ const profile = {
 const userInfo = {
   userTag: ["Mir Habib Ul Latif", "A Full Stack Developer", "An Arsenal Fan"],
   cvLink: "",
-  userShortBio:
-    "It is a long established fact that a reader will be of a page when established fact looking at its layout.",
+  userShortBio: "",
 };
 
 // About Section
@@ -37,16 +36,11 @@ const social = [
 
 const aboutMe = [
   {
-    para:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+    para: "I love programming, reading, traveling, and watching arsenal win.",
   },
   {
     para:
-      "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-  },
-  {
-    para:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "I like building awesome software. I've built websites, automation script and desktop application! If you are interested, you can view some of my favorite projects in my portfolio section,read my medium article to get cool tips and tricks or follow me in the social media given below ",
   },
 ];
 
@@ -61,7 +55,7 @@ const workLinkAndTag = [
   { class: "active", link: "/#", title: "All", tag: "*" }, //for all work
   { class: "", link: "/#", title: "Node", tag: ".node" },
   { class: "", link: "/#", title: "React", tag: ".react" },
-  { class: "", link: "/#", title: "Django", tag: ".django" },
+  { class: "", link: "/#", title: "Bash", tag: ".django" },
   { class: "", link: "/#", title: "Laravel", tag: ".laravel" },
 ];
 
@@ -121,7 +115,7 @@ const contact = {
   email: "mirsahib24@gmail.com",
   office: "",
 };
-const contactMsg = "Trust me this form work";
+const contactMsg = "Have a question or want to work with me";
 
 export {
   profile,
