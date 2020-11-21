@@ -1,10 +1,5 @@
 import ProfilePicture from "./images/about.jpg";
-import ProjectImage1 from "./images/works/1.jpg";
-import ProjectImage2 from "./images/works/2.jpg";
-import ProjectImage3 from "./images/works/3.jpg";
-import ProjectImage4 from "./images/works/4.jpg";
-import ProjectImage5 from "./images/works/5.jpg";
-import ProjectImage6 from "./images/works/6.jpg";
+import ProjectImage1 from "./images/works/react-weather-app.png";
 
 //Header Section
 const profile = {
@@ -25,7 +20,7 @@ const social = [
   },
   { link: "https://github.com/mirsahib", icon: "mdi mdi-github-circle" },
   {
-    link: "https://stackoverflow.com/users/2432289/mirsahib",
+    link: "https://stackoverflow.com/users/2432289/mirsahib?tab=profile",
     icon: "mdi mdi-stackoverflow",
   },
   {
@@ -53,54 +48,17 @@ const workDescription = "Talk is cheap show me the code : Linus Torvaldo";
 
 const workLinkAndTag = [
   { class: "active", link: "/#", title: "All", tag: "*" }, //for all work
-  { class: "", link: "/#", title: "Node", tag: ".node" },
+  //{ class: "", link: "/#", title: "Node", tag: ".node" },
   { class: "", link: "/#", title: "React", tag: ".react" },
-  { class: "", link: "/#", title: "Bash", tag: ".django" },
-  { class: "", link: "/#", title: "Laravel", tag: ".laravel" },
 ];
 
 const project = [
   {
-    tag: ["node"],
-    link: "",
+    tag: ["react"],
+    link: "https://github.com/mirsahib/React-Weather-App",
     img_src: ProjectImage1,
-    catagory: "Design",
-    title: "Alpha Corp",
-  },
-  {
-    tag: ["react", "django"],
-    link: "",
-    img_src: ProjectImage2,
-    catagory: "Web devolopment",
-    title: "E commerce site",
-  },
-  {
-    tag: ["django"],
-    link: "",
-    img_src: ProjectImage3,
-    catagory: "Web development",
-    title: "Social Network",
-  },
-  {
-    tag: ["laravel"],
-    link: "",
-    img_src: ProjectImage4,
     catagory: "Web Development",
-    title: "Airlines Ticketing System",
-  },
-  {
-    tag: ["node", "react"],
-    link: "",
-    img_src: ProjectImage5,
-    catagory: "Desktop Application",
-    title: "Task Manager",
-  },
-  {
-    tag: ["django", "react"],
-    link: "",
-    img_src: ProjectImage6,
-    catagory: "Web Development + Machine Learning",
-    title: "Chat Bot",
+    title: "React Weather App",
   },
 ];
 
