@@ -1,5 +1,6 @@
 import ProfilePicture from "./images/about.jpg";
 import ProjectImage1 from "./images/works/react-weather-app.png";
+import ProjectImage2 from "./images/works/react-task-manager.png";
 
 //Header Section
 const profile = {
@@ -57,8 +58,15 @@ const project = [
     tag: ["react"],
     link: "https://github.com/mirsahib/React-Weather-App",
     img_src: ProjectImage1,
-    catagory: "Web Development",
+    catagory: "Front-End Application",
     title: "React Weather App",
+  },
+  {
+    tag: ["react"],
+    link: "https://github.com/mirsahib/React-Task-Manager",
+    img_src: ProjectImage2,
+    catagory: "Front-End Application",
+    title: "React Task Manager",
   },
 ];
 
