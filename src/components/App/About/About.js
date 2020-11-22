@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "./Social";
 import Paragraph from "./Paragraph";
-import { profile, social, aboutMe } from "../../portfolio";
+import { profile, social, aboutMe } from "../../../portfolio";
 import { v4 as uuidv4 } from "uuid";
 
 function About() {

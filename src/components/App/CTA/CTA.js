@@ -1,5 +1,5 @@
 import React from "react";
-import { hireMeLink } from "../portfolio";
+import { hireMeLink } from "../../../portfolio";
 
 function CTA() {
   return (

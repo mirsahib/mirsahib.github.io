@@ -1,5 +1,5 @@
 import React from "react";
-import { profile } from "../portfolio";
+import { profile } from "../../../portfolio";
 
 function Navbar() {
   return (

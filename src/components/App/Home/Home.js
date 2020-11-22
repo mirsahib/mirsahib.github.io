@@ -1,5 +1,5 @@
 import React from "react";
-import { userInfo } from "../portfolio";
+import { userInfo } from "../../../portfolio";
 import Typewriter from "typewriter-effect";
 
 function Home() {

@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import { contact, contactMsg } from "../../portfolio";
+import { contact, contactMsg } from "../../../portfolio";
 
 function Contact() {
   let { cell, email, office } = contact;

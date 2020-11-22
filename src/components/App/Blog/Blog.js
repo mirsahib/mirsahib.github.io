@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Post from "./Post";
-import { mediumId, mediumMsg } from "../../portfolio";
+import { mediumId, mediumMsg } from "../../../portfolio";
 
 function Blog() {
   const [post, setPost] = useState([]);

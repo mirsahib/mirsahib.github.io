@@ -3,7 +3,7 @@ import Tab from "./Tab";
 import Project from "./Project";
 import { v4 as uuidv4 } from "uuid";
 
-import { workDescription, workLinkAndTag, project } from "../../portfolio";
+import { workDescription, workLinkAndTag, project } from "../../../portfolio";
 
 function Work() {
   return (
