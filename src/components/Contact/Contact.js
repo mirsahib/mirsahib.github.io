@@ -1,9 +1,8 @@
 import React from "react";
 import Form from "./Form";
-import { contact, contactMsg } from "../../portfolio";
+import { contactMsg } from "../../portfolio";
 
 function Contact() {
-  let { cell, email, office } = contact;
   return (
     <section class="section" id="contact">
       <div class="container">
