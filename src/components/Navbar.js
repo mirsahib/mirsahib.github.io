@@ -30,22 +30,22 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#about">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#work">
+              <a className="nav-link" href="#work">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#blog">
+              <a className="nav-link" href="#blog">
                 Blog
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#contact">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>
