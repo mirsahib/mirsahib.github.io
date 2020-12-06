@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MirFolio/static/css/main.1661d250.chunk.css",
-    "main.js": "/MirFolio/static/js/main.520728ef.chunk.js",
-    "main.js.map": "/MirFolio/static/js/main.520728ef.chunk.js.map",
+    "main.js": "/MirFolio/static/js/main.124240c7.chunk.js",
+    "main.js.map": "/MirFolio/static/js/main.124240c7.chunk.js.map",
     "runtime-main.js": "/MirFolio/static/js/runtime-main.0e466e75.js",
     "runtime-main.js.map": "/MirFolio/static/js/runtime-main.0e466e75.js.map",
     "static/css/2.83342f34.chunk.css": "/MirFolio/static/css/2.83342f34.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.83342f34.chunk.css",
     "static/js/2.9131f47c.chunk.js",
     "static/css/main.1661d250.chunk.css",
-    "static/js/main.520728ef.chunk.js"
+    "static/js/main.124240c7.chunk.js"
   ]
 }
