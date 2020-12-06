@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MirFolio/static/css/main.1661d250.chunk.css",
+    "main.js": "/MirFolio/static/js/main.520728ef.chunk.js",
+    "main.js.map": "/MirFolio/static/js/main.520728ef.chunk.js.map",
+    "runtime-main.js": "/MirFolio/static/js/runtime-main.0e466e75.js",
+    "runtime-main.js.map": "/MirFolio/static/js/runtime-main.0e466e75.js.map",
+    "static/css/2.83342f34.chunk.css": "/MirFolio/static/css/2.83342f34.chunk.css",
+    "static/js/2.9131f47c.chunk.js": "/MirFolio/static/js/2.9131f47c.chunk.js",
+    "static/js/2.9131f47c.chunk.js.map": "/MirFolio/static/js/2.9131f47c.chunk.js.map",
+    "index.html": "/MirFolio/index.html",
+    "static/css/2.83342f34.chunk.css.map": "/MirFolio/static/css/2.83342f34.chunk.css.map",
+    "static/css/main.1661d250.chunk.css.map": "/MirFolio/static/css/main.1661d250.chunk.css.map",
+    "static/js/2.9131f47c.chunk.js.LICENSE.txt": "/MirFolio/static/js/2.9131f47c.chunk.js.LICENSE.txt",
+    "static/media/about.1683f414.jpg": "/MirFolio/static/media/about.1683f414.jpg",
+    "static/media/App.css": "/MirFolio/static/media/header-bg3.1b164bc1.jpg",
+    "static/media/react-task-manager.574f6400.png": "/MirFolio/static/media/react-task-manager.574f6400.png",
+    "static/media/react-weather-app.c515f3e9.png": "/MirFolio/static/media/react-weather-app.c515f3e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e466e75.js",
+    "static/css/2.83342f34.chunk.css",
+    "static/js/2.9131f47c.chunk.js",
+    "static/css/main.1661d250.chunk.css",
+    "static/js/main.520728ef.chunk.js"
+  ]
+}
