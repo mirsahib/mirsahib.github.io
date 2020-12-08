@@ -1,6 +1,7 @@
 import ProfilePicture from "./images/about.jpg";
 import ProjectImage1 from "./images/works/react-weather-app.png";
 import ProjectImage2 from "./images/works/react-task-manager.png";
+import ProjectImage3 from "./images/works/react-serverless-authentication.png";
 
 //Header Section
 const profile = {
@@ -50,23 +51,30 @@ const workDescription = "Talk is cheap show me the code : Linus Torvaldo";
 const workLinkAndTag = [
   { class: "active", link: "/#", title: "All", tag: "*" }, //for all work
   //{ class: "", link: "/#", title: "Node", tag: ".node" },
-  { class: "", link: "/#", title: "React", tag: ".react" },
+  { class: "", link: "/#", title: "JAM-Stack", tag: ".JAM" },
 ];
 
 const project = [
   {
-    tag: ["react"],
+    tag: ["JAM"],
     link: "https://github.com/mirsahib/React-Weather-App",
     img_src: ProjectImage1,
     catagory: "Front-End Application",
     title: "React Weather App",
   },
   {
-    tag: ["react"],
+    tag: ["JAM"],
     link: "https://github.com/mirsahib/React-Task-Manager",
     img_src: ProjectImage2,
     catagory: "Front-End Application",
     title: "React Task Manager",
+  },
+  {
+    tag: ["JAM"],
+    link: "https://github.com/mirsahib/React-Serverless-Authentication",
+    img_src: ProjectImage3,
+    catagory: "Front-End Application",
+    title: "Serverless-Authentication-Service",
   },
 ];
 
