@@ -1,5 +1,5 @@
 import ProfilePicture from "./images/about.jpg";
-import ProjectImage1 from "./images/works/react-weather-app.png";
+import ProjectImage1 from "./images/works/react-weather-app.jpg";
 import ProjectImage2 from "./images/works/react-task-manager.png";
 import ProjectImage3 from "./images/works/react-serverless-authentication.png";
 
