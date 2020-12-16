@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e7c45e05.chunk.css",
-    "main.js": "/static/js/main.264bb07a.chunk.js",
-    "main.js.map": "/static/js/main.264bb07a.chunk.js.map",
+    "main.js": "/static/js/main.1bf1e6f8.chunk.js",
+    "main.js.map": "/static/js/main.1bf1e6f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a83e136.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a83e136.js.map",
     "static/css/2.83342f34.chunk.css": "/static/css/2.83342f34.chunk.css",
@@ -16,13 +16,13 @@
     "static/media/App.css": "/static/media/header-bg3.1b164bc1.jpg",
     "static/media/react-serverless-authentication.1db9ac87.png": "/static/media/react-serverless-authentication.1db9ac87.png",
     "static/media/react-task-manager.574f6400.png": "/static/media/react-task-manager.574f6400.png",
-    "static/media/react-weather-app.c515f3e9.png": "/static/media/react-weather-app.c515f3e9.png"
+    "static/media/react-weather-app.f0db8d8f.jpg": "/static/media/react-weather-app.f0db8d8f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4a83e136.js",
     "static/css/2.83342f34.chunk.css",
     "static/js/2.9131f47c.chunk.js",
     "static/css/main.e7c45e05.chunk.css",
-    "static/js/main.264bb07a.chunk.js"
+    "static/js/main.1bf1e6f8.chunk.js"
   ]
 }
