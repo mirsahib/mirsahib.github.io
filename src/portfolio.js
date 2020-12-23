@@ -11,7 +11,8 @@ const profile = {
 };
 const userInfo = {
   userTag: ["Mir Habib Ul Latif", "A Full Stack Developer", "An Arsenal Fan"],
-  cvLink: "",
+  cvLink:
+    "https://github.com/mirsahib/mirsahib.github.io/raw/main/.github/CV/My_CV.pdf",
   userShortBio: "",
 };
 
