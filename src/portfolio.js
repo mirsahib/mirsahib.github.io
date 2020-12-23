@@ -2,6 +2,7 @@ import ProfilePicture from "./images/about.jpg";
 import ProjectImage1 from "./images/works/react-weather-app.jpg";
 import ProjectImage2 from "./images/works/react-task-manager.png";
 import ProjectImage3 from "./images/works/react-serverless-authentication.png";
+import ProjectImage4 from "./images/works/dpdc-bulk-bill-viewer.jpg";
 
 //Header Section
 const profile = {
@@ -52,6 +53,7 @@ const workLinkAndTag = [
   { class: "active", link: "/#", title: "All", tag: "*" }, //for all work
   //{ class: "", link: "/#", title: "Node", tag: ".node" },
   { class: "", link: "/#", title: "JAM-Stack", tag: ".JAM" },
+  { class: "", link: "/#", title: "Automation & Scrapping", tag: ".scrape" },
 ];
 
 const project = [
@@ -75,6 +77,13 @@ const project = [
     img_src: ProjectImage3,
     catagory: "Front-End Application",
     title: "Serverless-Authentication-Service",
+  },
+  {
+    tag: ["scrape"],
+    link: "https://github.com/mirsahib/DPDC-Bulk-Bill-Viewer",
+    img_src: ProjectImage4,
+    catagory: "Automation & Scrapping",
+    title: "DPDC Bulk Bill Viewer",
   },
 ];
 
