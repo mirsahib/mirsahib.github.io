@@ -2,7 +2,7 @@ import ProfilePicture from "./images/about.jpg";
 import ProjectImage1 from "./images/works/react-weather-app.jpg";
 import ProjectImage2 from "./images/works/react-task-manager.png";
 import ProjectImage3 from "./images/works/react-serverless-authentication.png";
-import ProjectImage4 from "./images/works/dpdc-bulk-bill-viewer.jpg";
+import ProjectImage4 from "./images/works/dpdc-bill-manager.jpg";
 
 //Header Section
 const profile = {
@@ -81,10 +81,10 @@ const project = [
   },
   {
     tag: ["scrape"],
-    link: "https://github.com/mirsahib/DPDC-Bulk-Bill-Viewer",
+    link: "https://github.com/mirsahib/DPDC-Bill-Manager",
     img_src: ProjectImage4,
     catagory: "Automation & Scrapping",
-    title: "DPDC Bulk Bill Viewer",
+    title: "DPDC Bill Manager",
   },
 ];
 
