@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e7c45e05.chunk.css",
-    "main.js": "/static/js/main.604a4d7e.chunk.js",
-    "main.js.map": "/static/js/main.604a4d7e.chunk.js.map",
+    "main.js": "/static/js/main.ee83a136.chunk.js",
+    "main.js.map": "/static/js/main.ee83a136.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a83e136.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a83e136.js.map",
     "static/css/2.83342f34.chunk.css": "/static/css/2.83342f34.chunk.css",
@@ -12,8 +12,10 @@
     "static/css/2.83342f34.chunk.css.map": "/static/css/2.83342f34.chunk.css.map",
     "static/css/main.e7c45e05.chunk.css.map": "/static/css/main.e7c45e05.chunk.css.map",
     "static/js/2.9131f47c.chunk.js.LICENSE.txt": "/static/js/2.9131f47c.chunk.js.LICENSE.txt",
+    "static/media/BanGIAA.b6f09c8d.png": "/static/media/BanGIAA.b6f09c8d.png",
     "static/media/about.1683f414.jpg": "/static/media/about.1683f414.jpg",
     "static/media/dpdc-bill-manager.0768c3d2.jpg": "/static/media/dpdc-bill-manager.0768c3d2.jpg",
+    "static/media/github.1e61d3b3.png": "/static/media/github.1e61d3b3.png",
     "static/media/App.css": "/static/media/header-bg3.1b164bc1.jpg",
     "static/media/react-serverless-authentication.ace45a01.png": "/static/media/react-serverless-authentication.ace45a01.png",
     "static/media/react-task-manager.574f6400.png": "/static/media/react-task-manager.574f6400.png",
@@ -24,6 +26,6 @@
     "static/css/2.83342f34.chunk.css",
     "static/js/2.9131f47c.chunk.js",
     "static/css/main.e7c45e05.chunk.css",
-    "static/js/main.604a4d7e.chunk.js"
+    "static/js/main.ee83a136.chunk.js"
   ]
 }
