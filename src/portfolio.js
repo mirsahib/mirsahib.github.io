@@ -3,6 +3,8 @@ import ProjectImage1 from "./images/works/react-weather-app.jpg";
 import ProjectImage2 from "./images/works/react-task-manager.png";
 import ProjectImage3 from "./images/works/react-serverless-authentication.png";
 import ProjectImage4 from "./images/works/dpdc-bill-manager.jpg";
+import ProjectImage5 from "./images/works/BanGIAA.png"
+import ProjectImage6 from "./images/works/github.png"
 
 //Header Section
 const profile = {
@@ -55,6 +57,8 @@ const workLinkAndTag = [
   //{ class: "", link: "/#", title: "Node", tag: ".node" },
   { class: "", link: "/#", title: "JAM-Stack", tag: ".JAM" },
   { class: "", link: "/#", title: "Automation & Scrapping", tag: ".scrape" },
+  { class: "", link: "/#", title: "React Native", tag: ".expo" },
+  { class: "", link: "/#", title: "Command Line Interface", tag: ".cli" },
 ];
 
 const project = [
@@ -85,6 +89,20 @@ const project = [
     img_src: ProjectImage4,
     catagory: "Automation & Scrapping",
     title: "DPDC Bill Manager",
+  },
+  {
+    tag: ["expo"],
+    link: "https://github.com/mirsahib/BanGIAA",
+    img_src: ProjectImage5,
+    catagory: "React Native Expo App",
+    title: "Bangladesh Image Annotation App",
+  },
+  {
+    tag: ["cli"],
+    link: "https://www.npmjs.com/package/mern-skeleton-cli",
+    img_src: ProjectImage6,
+    catagory: "Command Line Interface",
+    title: "Mern Skeleton Cli",
   },
 ];
 
